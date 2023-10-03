@@ -1,0 +1,97 @@
+body{
+    background: linear-gradient(120deg, rgb(0, 162, 255),pink );
+    background-size: cover;
+    height: 100vh;
+}
+.nav{
+   
+}
+.nav div{
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    padding: 15px;
+    font-size: 20px;
+    color: white;
+}
+.nav ul{
+    position: absolute;
+    right: 5px;
+
+}
+.nav li{
+    display: inline-block;
+}
+.nav ul li a{
+    color: white;
+    padding: 5px;
+}
+.nav .has-dropdown ul li a{
+    padding: 12px 0;
+}
+
+.nav li a:hover {
+    background-color: none;
+  }
+  
+  .nav li a.active {
+   
+    color: white;
+  }
+  
+  .dropdown {
+    
+    padding: 0;
+    list-style: none;
+    display: none;
+  }
+  
+  .nav li.has-dropdown:hover .dropdown {
+    display: block;
+  }
+  
+.text-container{
+    color: white ;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    size: 90px;
+
+}
+
+
+
+
+
+
+
+/*.
+
+
+
+header{ 
+    background-color: cadetblue;
+    height: 50px;
+
+   
+
+}
+.nav-doc{
+   text-align: left;
+   position: absolute;
+   right: 0px;
+}
+   
+}
+
+ul{
+    popup{
+    background-color: aliceblue;
+    width: 50px;
+    text-align: center;
+    left: 50%;
+    top: 50%;
+     overflow: scroll;
+}*/

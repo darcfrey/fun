@@ -1,0 +1,109 @@
+body{
+    background: linear-gradient(120deg,#2980b9,#8e44ad);
+}
+.login{
+    position: absolute;
+   top: 50%;
+    left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400PX;
+ 
+border-radius: 10PX;
+}
+.login h1{
+    text-align: center;
+   padding: 0 0 20px 0;
+   border-bottom: 1px solid gray;
+}
+.login form{
+    padding: 0 40px ;
+    box-sizing: border-box;
+
+}
+form .login-deets{
+    position: relative;
+    border-bottom: 2px solid gray;
+
+   
+}
+.login-deets{
+    font-size: 17px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #a6a6a6;
+}
+.pass a {
+    color: grey;
+}
+.pass:hover{
+    text-decoration: underline;
+}
+.login-deets input{
+  width: 100%;
+  padding: 0 5px;
+  height: 40px;
+  font-size: 16px;
+  border: none;
+  background: none;
+}
+
+.login-deets input:focus{
+    outline: none;
+}
+.login-deets label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    color: #adadad;
+    transform: translatey(-50%);
+    font-size: 16px;
+    pointer-events: none;
+
+}
+.login-deets span::before{
+    content: '';
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: gray;
+}
+.login-deets input:focus ~ label,
+.login-deets input:valid ~label{
+    top: -5px;
+}
+.pass{
+    margin: 10px 0 20px 5px;
+    color: black;
+}
+.pass a:hover{
+    text-decoration: line-through;
+}
+button[type="submit"]{
+    width: 90%;
+    height: 45px;
+    border: 1px solid grey;
+    border-radius: 20px;
+    font-size: 15px;
+    color: white;
+     font-weight: 700;
+     cursor: pointer;
+}
+button a{
+    color:grey;
+}
+button[type="submit"]:hover{
+    background-color: grey;
+    transition: 1s;
+}
+.signup-link{
+    margin: 30px 0 ;
+    text-align: center;
+}
+.signup-link a{
+    color: rgb(38, 154, 237);
+
+}
+.signup-link a:hover{
+    text-decoration: underline;
+}

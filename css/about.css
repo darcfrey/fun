@@ -1,0 +1,33 @@
+body{
+    background:  
+    background-size: cover;
+    height: 100vh;
+}
+.nav{
+    height: 50px;
+  
+}
+.nav div{
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    padding: 15px;
+    font-size: 20px;
+    color: white;
+}
+.nav ul{
+    position: absolute;
+    right: 5px;
+
+}
+.nav li{
+    display: inline-block;
+}
+.nav ul li a{
+    color: white;
+    padding: 5px;
+
+}
+.about-content{
+    color: aliceblue;
+}
