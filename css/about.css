@@ -1,5 +1,4 @@
 body{
-    background:  
     background-size: cover;
     height: 100vh;
 }
@@ -13,7 +12,7 @@ body{
     left: 0;
     padding: 15px;
     font-size: 20px;
-    color: white;
+    color: blue;
 }
 .nav ul{
     position: absolute;
@@ -24,10 +23,7 @@ body{
     display: inline-block;
 }
 .nav ul li a{
-    color: white;
+    color: blue;
     padding: 5px;
 
-}
-.about-content{
-    color: aliceblue;
 }
